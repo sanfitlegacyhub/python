@@ -8,6 +8,7 @@ for reservation in response['Reservations']:
     for instance in reservation['Instances']:
         for taglist in instance['Tags']:#data parsing thourgh the tags 
             for key,value in taglist.items():
+                
                 print(f"{key}:{value}")
                 print('====================')
 

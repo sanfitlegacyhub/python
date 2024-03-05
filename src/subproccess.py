@@ -15,4 +15,4 @@ def get_disk_space():
         print("Error:", e.stderr)
 
 # Call the function to get disk space information
-print(get_disk_space())
+get_disk_space()
